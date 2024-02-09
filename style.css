@@ -1,0 +1,425 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-item:hover
+{
+  color: red;
+  background-color: white;
+
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color: white;
+    font-size: 17px;
+   margin: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+  color: red;
+  background-color: white;
+}
+.navbar .navbar-nav .nav-item
+{
+padding-right: 15px;
+}
+
+.carousel-indicators{
+  position:absolute; 
+top:50%;
+  margin-bottom:100px;
+}
+.carousel-indicators li{
+  border-radius: 50%;
+width: 20px;
+  height: 20px;
+ background-color: #28972E;
+  margin-bottom: 50px;
+  margin-left: 3px;
+}
+.carousel-control-prev
+.carousel-control-prev-icon,
+.carousel-control-next
+.carousel-control-next-icon {
+  position: absolute;
+background-color: rgb(0, 0, 0);
+border-radius: 5px;
+font-size: smaller;
+font-weight: 100;
+
+}
+h3
+{
+  color: #28972E;
+}
+.carousel-item
+{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+}
+.caption
+{
+  position:absolute;
+  right: 15%;
+  bottom: 100px;
+  left: 15%;
+  z-index: 10;
+ top: 100px;
+  color: #000;
+  text-align: center;
+}
+.themes
+{
+  background-color: #28972E;
+  border-radius: 20px;
+}
+.desha
+{
+  font-size: large;
+  color: black;
+  font-weight: 600;
+
+
+}
+h5
+{
+  font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+  font-size: 30px;
+  color: black;
+}
+.photos img:hover
+{
+  border: #28972E 1px solid;
+  border-radius: 15px;
+}
+.desha:hover,h5:hover{
+  color: red;
+}
+.can
+{
+  color: white;
+  border-color: aliceblue;
+  border-width: 3px;
+  padding-right: 8px;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+.can:hover
+{
+  color: red;
+}
+.zola
+{
+  width: 2px;
+  height: 15px;
+  background-color: white;
+ margin-top: 3px;
+  
+}
+.sem
+  {
+    color: #28972E;
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 15px;
+  }
+  .sem:hover
+  {
+    color:white;
+  }
+  .ebead
+  {
+    color: white;
+  }
+  .firstone
+  {
+font-size: 20px;
+font-weight:900;
+color: black;
+padding:0 20px;
+  }
+  .secondone
+  {
+   
+    padding: 50px 20px 0 20px;
+
+  }
+.dom
+{
+  width: 16.6%;
+  margin-left: 15px;
+}
+  .information,.theinformation,.oninformation
+  {
+    
+    background-color: whitesmoke;
+    
+    width: 100%;
+    position: absolute;
+    top:27%;
+    z-index:109;
+  
+  }
+  .kong
+  {
+    left: 200px;
+  }
+  .how
+  {
+    top: 12px;
+    padding-top: 0;
+    margin-top: 0%;
+  
+  }
+  .ebo
+  {
+
+    left: 130px;
+    position: absolute;
+    
+  }
+  .zaki
+  {
+ 
+  left: 185px;
+  position: absolute;
+  }
+ 
+  .zako
+  {
+    left: 190px;
+    position: absolute;
+  }
+  .zaka
+  {
+    left: 180px;
+    position: absolute;
+  }
+  .ebod
+  {
+    left: 130px;
+    position: absolute;
+  }
+.salah
+{
+  position: absolute;
+  width: 6px;
+  height: 200px;
+  background-color: #28972E;
+  top: 50px;
+}
+.zak
+{
+ right:20px;
+}
+ .last
+ {
+  right: 0;
+  left:80px;
+ }
+ @media only screen and (max-width: 600px) {
+    
+
+  .carousel-inner img {
+      width: 100%;
+      height: 280px;
+    }
+    .caption
+    {
+        font-size: 10px;
+        display: none;
+    }
+    .hi
+{
+width: 100%;
+
+}
+.firstone,.secondone
+{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.kol
+{
+  width: 80%;
+}
+.salah
+{
+  width:20%;
+}
+.production
+{
+  width: 100%;
+}
+.all
+{
+  font-size: 10px;
+  position: relative;
+  top: 100;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  
+
+  .carousel-inner img {
+      width: 100%;
+      height: 270px;
+    }  
+    .caption
+    {
+        font-size: 13px;
+    }
+    .hi
+
+{
+width: 100%;
+
+}
+.firstone,.secondone
+{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.kol
+{
+  width: 80%;
+}
+.salah
+{
+  width:20%;
+}
+.production
+{
+  width: 100%;
+}
+.all
+{
+  font-size: 10px;
+  position: relative;
+  top: 100;
+}
+
+
+}
+
+@media only screen and (max-width: 768px)
+{
+  .production:nth-child(1)
+    { 
+    
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+    
+    .production:nth-child(3)
+    { 
+    
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
+  
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  
+
+  .carousel-inner img {
+      width: 100%;
+      height: 250px;
+    }  
+      .caption
+  {
+      font-size: 13px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link
+  {
+padding: 5px 5px    }
+
+.hi
+
+{
+width: 70%;
+
+}
+.firstone,.secondone
+{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+.kol
+{
+  width: 80%;
+}
+.salah
+{
+  width:20%;
+}
+.production
+{
+  width: 100%;
+}
+.all
+{
+  font-size: 12px;
+  position: relative;
+  top: 100;
+}
+
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 980px)  and (max-width: 1200px)
+{
+
+
+  .caption
+  {
+      font-size: 13px;
+  }
+
+  .hi
+
+  {
+  width: 60%;
+  
+  }
+
+} 
+@media only screen and (min-width: 980px) and (max-width: 1150px)
+
+{
+  .navbar .navbar-nav .nav-item .nav-link
+{
+  font-size: 15px;
+}
+
+  .hi
+
+  {
+  width: 60%;
+  
+  }
+
+
+}
